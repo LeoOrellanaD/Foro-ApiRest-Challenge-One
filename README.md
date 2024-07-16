@@ -16,6 +16,10 @@ Asegúrate de tener una base de datos MySQL configurada y accesible. Debes actua
 
 ## Funcionalidades
 
+### Login
+- **Ruta:** `POST /login`
+- **Descripción:** Autentica al usuario y devuelve un token JWT.
+
 ### Listado de Tópicos
 - **Ruta:** `GET /topicos`
 - **Descripción:** Obtiene una lista de todos los tópicos. Puede utilizar paginación y ordenación por fecha de creación.
